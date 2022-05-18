@@ -1,6 +1,17 @@
+$secondary: #3ed5da;
+
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
 
-body {
-	background: $gray-200;
+h1 {
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+label {
+	text-transform: capitalize;
+}
+
+form.button_to {
+	display: inline;
 }
